@@ -5,7 +5,7 @@
 
 FROM node:alpine
 # Create app directory
-WORKDIR /usr/src/hepsihaber
+WORKDIR /usr/src/river5App
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
