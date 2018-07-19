@@ -17,6 +17,8 @@ web: http://localhost:8080
 
 websocket: ws://localhost:8081
 
+see the console output from river5
+sudo docker container logs <container id> // get with -> sudo docker ps
 see for modification the file -> Dockerfile
 
 
