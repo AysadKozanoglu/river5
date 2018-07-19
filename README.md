@@ -19,7 +19,7 @@ websocket: ws://localhost:8081
 
 see the console output from river5
 <pre>
-sudo docker container logs <container id>
+sudo docker container logs CONTAINER_ID
 </pre>
 // get with -> sudo docker ps
   
