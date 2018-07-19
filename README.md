@@ -2,6 +2,24 @@
 
 River5 is a <a href="http://scripting.com/2014/06/02/whatIsARiverOfNewsAggregator.html">river-of-news</a> RSS aggregator in JavaScript running in Node, written by <a href="http://scripting.com/liveblog/users/davewiner/2016/02/09/0995.html">Dave Winer</a>.
 
+## Run river5 on Docker
+
+<pre>
+git clone https://github.com/AysadKozanoglu/river5.git
+cd river5 
+sudo docker build -t aysad/node-river5-app .
+sudo docker run -p 8080:1337 -p 8081:1338 -p -d aysad/node-river5-app
+</pre>
+
+## your docker river5 will be available on 
+
+web: http://localhost:8080
+
+websocket: ws://localhost:8081
+
+see for modification the file -> Dockerfile
+
+
 ## How River5 works
 
 When it starts up, River5 reads files in the <i>lists</i> folder at the top level of the River5 folder.
