@@ -8,7 +8,7 @@ River5 is a <a href="http://scripting.com/2014/06/02/whatIsARiverOfNewsAggregato
 git clone https://github.com/AysadKozanoglu/river5.git
 cd river5 
 sudo docker build -t aysad/node-river5-app .
-sudo docker run -p 8080:1337 -p 8081:1338 -p -d aysad/node-river5-app
+sudo docker run -p 8080:1337 -p 8081:1338 -d aysad/node-river5-app
 </pre>
 
 ## your docker river5 will be available on 
